@@ -1,0 +1,153 @@
+.Usemaindiv
+{
+    width: 70%;
+   min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center; 
+    position: relative;
+    align-items: center;
+    overflow: hidden;
+    filter: drop-shadow(0rem 0rem 10rem #0EB1C7);
+    margin-top: -5rem;
+}
+.Usemaindiv > heading
+{
+    font-size: clamp(1.8rem,3vw,3rem);
+    margin:1rem 0rem;
+    color: #0EB1C7;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    font-weight: bold;
+}
+.Usemaindiv > .UsemaindivChild
+{
+    display: flex;
+    align-items: center;
+    gap:1.5rem;
+}
+.UsemaindivChild > .design
+{
+    flex: .5;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 1rem;
+    background-color: hsla(213, 24, 16, 4%);
+    box-shadow:6px 9px 25px 16px rgba(1, 145, 226, .25);
+    filter: drop-shadow(0rem 0rem 10rem #0EB1C7);
+    padding-top: 2rem;
+    padding-bottom:2rem ;
+}
+.design >.Top
+{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+
+}
+.Top > heading
+{
+    font-size: clamp(1.8rem,3vw,2.2rem);
+    margin:1rem 0rem;
+    color: #0EB1C7;
+    text-align: center;
+    padding-inline:3rem; 
+    font-weight: bold;
+}
+.Top > p{
+    
+    font-size: clamp(1rem,3vw,1.6rem);
+    margin:1rem 0rem;
+    color: #0EB1C7;
+    text-align: center;
+    padding-inline:3rem; 
+}
+.design > .middle
+{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+   
+}
+.middle > heading
+{
+    font-size: clamp(1rem,3vw,1.6rem);
+    margin:1rem 0rem;
+    color: #0EB1C7;
+    text-align: center;
+    padding-inline:3rem; 
+    margin-bottom: .1rem;
+}
+.middle > p
+{
+    font-size: clamp(1rem,3vw,1.2rem);
+    margin:1rem 0rem;
+    
+    color: #0EB1C7;
+    text-align: center;
+    padding-inline:3rem; 
+}
+.design >.bottom
+{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+.bottom > heading{
+    font-size: clamp(1rem,3vw,1.6rem);
+    margin:1rem 0rem;
+    color: #0EB1C7;
+    text-align: center;
+    padding-inline:3rem; 
+    margin-bottom: .1rem;
+}
+.bottom >ul
+{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+}
+ul > li{
+    font-size: clamp(1rem,3vw,1.2rem);
+    margin:.5rem 0rem;
+    
+    color: #0EB1C7;
+    text-align: center;
+    padding-inline:3rem; 
+}
+.UsemaindivChild > .Front_Developer
+{
+    flex: .5;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 2rem;
+    background-color: hsla(213, 24, 16, 4%);
+    box-shadow:6px 9px 25px 16px rgba(1, 145, 226, .25);
+    filter: drop-shadow(0rem 0rem 10rem #0EB1C7);
+    padding-top: 2rem;
+    padding-bottom:2rem ;
+}
+.Front_Developer>.Top
+{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+
+}
+.Front_Developer > .middle
+{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+   
+}
+.Front_Developer > .bottom
+{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
