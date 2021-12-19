@@ -103,3 +103,11 @@ button:active
 
     }
 }
+@media (min-width:442px)
+{
+    .SecondDiv 
+    {
+       width: 70%;
+
+    }
+}
