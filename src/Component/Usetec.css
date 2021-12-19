@@ -151,3 +151,10 @@ ul > li{
     flex-direction:column;
     align-items: center;
 }
+@media (max-width:768px)
+{
+    .UsemaindivChild
+    {
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,104 @@
+.nav-main
+{
+  width: 100%;
+}
+.Navbar {
+  width: 100%;
+  min-height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--bgcolor2-);
+  background-color: hsla(100, 0, 100%, 0.9);
+  box-shadow: -5px 0px 20px 0px var(--bgcolor2-);
+ z-index: 10000;
+  margin-top: auto;
+  filter: blur(50%);
+}
+.Navbar > brand {
+  font-size: clamp(3.5rem, 6vw, 5rem);
+  margin-inline-start: 20rem;
+  font-weight: bold;
+}
+.Navbar > .List {
+  display: flex;
+  list-style: none;
+  margin-right: 5rem;
+}
+.List > li > a {
+  font-size: clamp(1.5rem, 1.2vw, 2rem);
+  text-decoration: none;
+  color: var(--bgcolor2-);
+
+}
+a:hover {
+  border-bottom: 3px solid var(--bgcolor2-);
+  filter: drop-shadow(5px 0px 30px var(--bgcolor2-));
+  transition: 0.2s;
+}
+.Btn {
+  
+  display: none;
+  z-index: 1;
+}
+.Mobile_nav
+{
+ display: none;
+ flex-direction: column;
+ width: 100%;
+ justify-content: space-around;
+ align-items: center;
+ color: var(--bgcolor2-);
+ background-color: hsla(100, 0, 100%, 0.9);
+ box-shadow: -5px 0px 20px 0px var(--bgcolor2-);
+ z-index: -1000;
+ padding:1rem 0rem;
+}
+.Mobile_nav > .List
+{
+  list-style: none;
+}
+.List > li{
+  margin: 1rem 0rem;
+}
+@media only screen and (max-width: 768px)  {
+  .Navbar 
+  {
+    box-shadow: none;
+  }
+  .Navbar > brand {
+    margin-inline-start: 3rem;
+  }
+  .Navbar > .List
+  {
+    display: none;
+  }
+  .Btn
+  {
+    display: block;
+    position: absolute;
+    right: 3rem;
+    background-color: transparent;
+    color: var(--bgcolor2-);
+    width: 3.5rem;
+    aspect-ratio: 1;
+    padding-right: 0rem;
+    text-align:center;
+    border-radius: 3px;
+    border: 1px solid var(--bgcolor2-);
+  }
+  .MuiSvgIcon-root
+  {
+    font-size: medium;
+  }
+  .Mobile_nav[Dis-v="false"]
+  {
+   display: none;
+  }
+  .Mobile_nav
+  {
+    display: block;
+    transition: 1s;
+    transform: translateY(0);
+  }
+}

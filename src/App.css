@@ -6,7 +6,7 @@
 }
 :root {
   --bgColor-: #0b0c10;
-  --bgcolor2-:#1f2833;
+  --bgcolor2-:#0EB1C7;
 }
 
 .App {
@@ -17,4 +17,17 @@
   background-color: #0b0c10;
   align-items: center;
   justify-content: space-around;
+}
+::-webkit-scrollbar
+{
+  width: 1rem;
+  background: rgba(19, 245, 234, 0.5);
+  
+}
+::-webkit-scrollbar-thumb
+{
+  background-color: var(--bgcolor2-);
+  border-radius: 5px;
+  filter: drop-shadow(0 0 20 var(--bgcolor2-));
+  
 }

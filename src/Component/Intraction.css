@@ -12,13 +12,16 @@
 .MainDiv > .SecondDiv
 {
     width:50%;
-    height: 70vh;
-    background-color: hsla(213, 24, 16, 4%);
+    height: 60vh;
     box-shadow:6px 9px 25px 16px rgba(1, 145, 226, .25);
-    display: grid;
-    place-items: center;
+    display: flex;
+    align-items: center;
     grid-template-columns: repeat(2,1fr);
     filter: drop-shadow(0rem 0rem 10rem #0EB1C7);
+    flex-direction: column;
+    justify-content: space-around;
+    position: relative;
+    margin-top: -5rem;
    
     
 }
@@ -44,7 +47,7 @@
     margin:1rem 0rem;
     color: #0EB1C7;
     display: grid;
-    
+    margin-left:max(-30%,-5rem);
     text-align: center;
     padding-inline:3rem;
 
@@ -55,47 +58,7 @@
     text-align: left;
     margin-bottom: -1rem;
 } 
-.MainDiv >.First_decoration
-{
-    width: clamp(12rem,18vw,22rem);
-    aspect-ratio: 1;
-    background-color:rgba(186, 0, 217, .47);
-    position: absolute;
-    top: clamp(4rem ,10vw,2rem);
-    left:clamp(9rem ,15vw,23rem);
-    border-radius: 50%;
-}
-.MainDiv > .Second_decoration
-{
-    width: clamp(10rem,20vw,22rem);
-    aspect-ratio: 1;
-    background-color:rgba(158, 11, 226, 0.6);
-    position: absolute;
-    top: clamp(4rem ,10vw,2rem);
-    right:clamp(9rem ,15vw,23rem);
-    border-radius: 50%;
-    
-}
-.MainDiv > .third_decoration
-{
-    width: clamp(12rem,20vw,22rem);
-    aspect-ratio: 1;
-    background-color:rgba(71 , 59, 209, 0.78);
-    position: absolute;
-    bottom: clamp(2rem ,10vw,2rem);
-    right:clamp(9rem ,15vw,23rem);
-    border-radius: 50%;
-}
-.MainDiv > .four_decoration
-{
-    width: clamp(15rem,20vw,22rem);
-    aspect-ratio: 1;
-    background-color:rgba(80, 24, 199, 0.88);
-    position: absolute;
-    bottom: clamp(2rem ,10vw,2rem);
-    left:clamp(9rem ,15vw,23rem);
-    border-radius: 50%;
-}
+
 img
 {
     filter: drop-shadow(0px 0px 50px #0EB1C7);
@@ -105,7 +68,6 @@ img
 .Button_div
 {
     display: grid;
-   grid-row: span 2;
   place-items: center;
   position: relative;
 }
@@ -133,4 +95,11 @@ button:active
  box-shadow: none;
  font-weight:bolder;
 }
+@media (max-width:768px)
+{
+    .SecondDiv 
+    {
+       width: 70%;
 
+    }
+}

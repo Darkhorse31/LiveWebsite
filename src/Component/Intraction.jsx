@@ -6,10 +6,6 @@ export default function Intraction() {
   return (
     <Pulse>
     <div className="MainDiv">
-    <div className="First_decoration"></div>
-    
-    <div className="third_decoration"></div>
-    <div className="four_decoration"></div>
       <div className="SecondDiv">
      
         <div className="Heading">FrontEnd & Ux Designer</div>
@@ -27,7 +23,6 @@ export default function Intraction() {
         </div>
       
       </div>
-      <div className="Second_decoration"></div>
     </div>
     </Pulse>
   );
