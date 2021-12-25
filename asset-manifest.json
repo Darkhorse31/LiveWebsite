@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/LiveWebsite/static/css/main.f95dad4d.chunk.css",
-    "main.js": "/LiveWebsite/static/js/main.e9b04f99.chunk.js",
-    "main.js.map": "/LiveWebsite/static/js/main.e9b04f99.chunk.js.map",
+    "main.css": "/LiveWebsite/static/css/main.eeaf7cbf.chunk.css",
+    "main.js": "/LiveWebsite/static/js/main.cc812682.chunk.js",
+    "main.js.map": "/LiveWebsite/static/js/main.cc812682.chunk.js.map",
     "runtime-main.js": "/LiveWebsite/static/js/runtime-main.ba71b67a.js",
     "runtime-main.js.map": "/LiveWebsite/static/js/runtime-main.ba71b67a.js.map",
     "static/js/2.a6ab47df.chunk.js": "/LiveWebsite/static/js/2.a6ab47df.chunk.js",
@@ -10,14 +10,14 @@
     "static/js/3.fd6d6b10.chunk.js": "/LiveWebsite/static/js/3.fd6d6b10.chunk.js",
     "static/js/3.fd6d6b10.chunk.js.map": "/LiveWebsite/static/js/3.fd6d6b10.chunk.js.map",
     "index.html": "/LiveWebsite/index.html",
-    "static/css/main.f95dad4d.chunk.css.map": "/LiveWebsite/static/css/main.f95dad4d.chunk.css.map",
+    "static/css/main.eeaf7cbf.chunk.css.map": "/LiveWebsite/static/css/main.eeaf7cbf.chunk.css.map",
     "static/js/2.a6ab47df.chunk.js.LICENSE.txt": "/LiveWebsite/static/js/2.a6ab47df.chunk.js.LICENSE.txt",
     "static/media/logo.891ad2c6.png": "/LiveWebsite/static/media/logo.891ad2c6.png"
   },
   "entrypoints": [
     "static/js/runtime-main.ba71b67a.js",
     "static/js/2.a6ab47df.chunk.js",
-    "static/css/main.f95dad4d.chunk.css",
-    "static/js/main.e9b04f99.chunk.js"
+    "static/css/main.eeaf7cbf.chunk.css",
+    "static/js/main.cc812682.chunk.js"
   ]
 }
